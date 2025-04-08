@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu site</p>
+ <video width="600" height="350" poster="imagens/limoes-capa.png" controls >
+    
+    <source src="midia/meu-video.mp4" type="video/mp4">
+    <source src="midia/meu-video.m4v" type="video/mp4">
+    <source src="midia/meu-video.webm" type="video/webm">
+    <source src="midia/meu-video.ogv" type="video/ogg">
+
+ </video>
+ <p>Clique aqui para baixar o vídeo <button><a href="midia/meu-video.mp4" download="meu-video.mp4">&downarrow;</a></button></p>
+ <h1>Vídeos do YouTube</h1>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/aFL6F8a6hu0?si=BVaCKCGawLcyRJFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+</body>
+</html>

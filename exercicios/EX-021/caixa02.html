@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+      body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: lightgrey;
+        margin: 0px;
+      }
+
+      header{
+        font:3em bold normal Times,serif;
+        padding: 20px;
+        text-align: center;
+        background-color: white;
+        margin: 20px;
+      }
+
+      a{
+        font-size: 0.6em;
+        text-decoration: none;
+        padding: 3px;
+        color: white;
+        margin: 30px;
+      }
+      nav{
+        background-color: rgb(105, 101, 101);
+        height: 70px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.466);
+        border-radius: 7px;
+      }
+      nav > a{
+        margin: auto;
+        padding: 10px;
+      }
+
+      nav > a:hover{
+        text-decoration: underline;
+      }
+
+      main{
+        background-color: white;
+        text-align: justify;
+        padding: 20px;
+        margin: 20px;
+
+      }
+      h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2em;
+      }
+
+      footer{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+
+      footer > p{
+        margin: 0px;
+      }
+    </style>
+</head>
+<body>
+   <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+   </header>
+
+   <main>
+     <section id="noticias">
+        <article>
+            <h2>Artigo sobre o Brasil</h2>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex pariatur sunt eum deleniti ut veniam facilis ipsam, commodi consequatur, maxime sapiente velit! Dicta asperiores qui aliquid quos? Non, veniam modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat voluptatem odit esse harum. Repudiandae cumque libero perspiciatis consequuntur voluptates ratione odit quaerat, repellat ad, reiciendis asperiores architecto eum in?</p>
+            <aside>
+    
+                <picture>
+
+                    <source media="(min-width: 800px )" srcset="imagens/foto-m.png" type="image/png">
+
+                    <img src="imagens/foto-p.png" alt="imagem pequena">
+                
+                </picture>
+            </aside>
+            <aside>
+                <strong>Artigo escrito por José da Silva</strong>
+            </aside>
+        </article>
+
+        <article>
+
+        </article>
+     </section>
+   </main>
+
+   <footer>
+     <p>Desenvolvido por Daniel Fonseca Ramos</p>
+   </footer>
+</body>
+</html>

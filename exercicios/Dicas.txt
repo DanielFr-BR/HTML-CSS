@@ -1,0 +1,43 @@
+margin -> define as margens de um elemento.
+	margin: 10px 5px 15px 20px|auto;
+		superior      é de 10px
+		direita         é de 5px
+		inferior       é de 15px
+		esquerda   é de 20px
+	margin: auto;
+		centralizar na horizontal
+
+border-radius -> Adicionar cantos arredondado
+	border-radius: 15px 50px 30px 5px
+		superior esquerdo    é de 15px
+		superior direito          é de 50px
+		inferior direito            é de 30px
+		inferior esquerdo      é de 5px
+
+padding -> É o espaço entre o conteúdo e a borda
+	padding: 10px 5px 15px 20px;
+		superior    é de 10px
+		direito       é  de 5px
+		inferior      é de 15px
+		esquerdo  é de 20px
+
+text-aling -> É o alinhamento horizontal do texto
+	text-align: left|right|center|justify|initial|inherit;
+		left-        Alinha para a esquerda
+		right-      Alinha para a direita
+		center-  Centraliza
+		justify-    Estica as linhas para que cada linha tenha a mesma largura
+		initial-      Define para o valor padrão
+		inherit-    Herda esta propriedade do seu elemento principal
+
+box-shadow -> Anexa uma ou mais sombras a um elemento.
+	box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+		nome-       Valor padrão. Nenhuma sombra é exibida
+		h-offset-    Deslocamento horizontal da sombra
+		v-offset-    Deslocamento vertical da sombra
+		blur-           O raio de desfoque
+		spread-      raio de propagação
+		color-         A cor da sombra
+		inset-         Muda sombra externa para sombra interior
+		initial-        Define para o valor padrão
+		inherit-      Herda esta propriedade do seu elemento pai.
