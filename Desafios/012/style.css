@@ -57,7 +57,7 @@ header a:hover{
 }
 main p{
     font-family: var(--fonte02);
-    font-size:2.2em ;
+    font-size:2.1em ;
     line-height: 2em; 
     padding-left: 50px;
     margin-top: 50px;
@@ -91,6 +91,7 @@ main p{
     height: 600px;
     width: 100%;
     max-width: 500px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.099);
     color: white;
     position: absolute;
