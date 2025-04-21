@@ -10,6 +10,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header{
     background-color: black;
@@ -22,7 +28,7 @@ header > h1 {
     color: white;
     padding-top: 50px;
 }
-header  p, a{
+header  p{
     color: white;
     text-align: center;
     font-family: var(--fonte03);
@@ -30,23 +36,77 @@ header  p, a{
     padding-bottom: 40px;
 }
 header a {
+    color: white;
    text-decoration: none;
    font-weight: bold;
 }
 header a:hover{
     text-decoration: underline;
 }
+.fundo01{
+    height: 65vw;
+    width: 100vw;
+    background-color: black;
+    background-image: url(imagens/background001.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.fundo01  p{
+    margin-top: 0px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.121);
+    color: white;
+}
+.fundo02 {
+    height: 65vw;
+    width: 100vw;
+    background-color: black;
+    background-image: url(imagens/background002.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;}
+
+.fundo02 p{
+    margin-top: 0px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.121);
+    color: white;
+}
+.texto{
+    position: absolute;
+    top: 8%;
+}
+section{
+    background-color: white;
+}
 section p{
     font-family: var(--fonte01);
-    font-size: 4vw;
+    font-size: 3.7vw;
     max-width: 50vw;
     max-height: 50vw;
-    padding: 20px 40px 20px 30px;
-    margin-top: 61px;
-    margin-bottom: 30px;
-    
+    padding: 10px 40px 50px 30px;
+    white-space: pre-line;
+    background-color: white;
+    color: black;
 }
-.teste{
-    max-width: 55vw;
-    max-height: 60vw;
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: var(--fonte03);
 }
+footer  a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+footer a:hover{
+   text-decoration: underline;
+}
+
