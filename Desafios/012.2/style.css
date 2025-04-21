@@ -55,7 +55,7 @@ header a:hover{
 .fundo01  p{
     margin-top: 0px;
     padding-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.121);
+    background-color: rgba(0, 0, 0, 0.355);
     color: white;
 }
 .fundo02 {
@@ -70,7 +70,7 @@ header a:hover{
 .fundo02 p{
     margin-top: 0px;
     padding-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.121);
+    background-color: rgba(0, 0, 0, 0.467);
     color: white;
 }
 .texto{
