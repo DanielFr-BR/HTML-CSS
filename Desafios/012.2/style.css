@@ -75,7 +75,10 @@ header a:hover{
 }
 .texto{
     position: absolute;
-    top: 8%;
+    top: 7%;
+}
+.texto p{
+    padding-bottom: 30px;
 }
 section{
     background-color: white;
